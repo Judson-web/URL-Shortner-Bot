@@ -184,7 +184,7 @@ async def short(link):
         try:
     
     # GPLinks shorten
-    if GPLINKS_API:
+      GPLINKS_API:
         try:
             api_url = "https://gplinks.in/api"
             params = {'api': GPLINKS_API, 'url': link}
