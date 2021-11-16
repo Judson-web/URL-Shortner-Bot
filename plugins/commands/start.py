@@ -27,11 +27,13 @@ START_BUTTONS = InlineKeyboardMarkup(
     )
 
 @Client.on_message(filters.private & filters.command(["help"]))
-async def start(bot, update):
+async def help(bot, update):
+    if not await db.is_user_exist(update.from_user.id):
+        await db.add_user(update.from_user.id)
     await update.reply_text(
-        text=HELP_TEXT.format(update.from_user.mention),
-        reply_markup=START_BUTTONS,
+        text=HELP_TEXT,
         disable_web_page_preview=True,
+        reply_markup=HELP_BUTTONS,
         quote=True
     )
      
