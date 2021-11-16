@@ -184,7 +184,7 @@ async def short(link):
         try:
             s = Shortener(domain='https://ttm.sh')
             url = s.nullpointer.short(link)
-            shorten_urls += f"\n**ᴛᴛᴍ.sʜ :-** [Cʟɪᴄᴋ Mᴇ]({url})"
+            shorten_urls += f"\n**ᴛᴛᴍ.sʜ :-** <a href="{url}">Cʟɪᴄᴋ Mᴇ</a>"
         except Exception as error:
             print(f"ttm.sh :- {error}")
     except Exception as error:
