@@ -14,7 +14,7 @@ START_TEXT = """
 >> `Sᴇɴᴅ ᴍᴇ Lɪɴᴋ ᴡʜɪᴄʜ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ sʜᴏʀᴛᴇɴ`
 """
 
-START_BUTTONS = InlineKeyboardMarkup
+START_BUTTONS = InlineKeyboardMarkup(
         [[
         InlineKeyboardButton('ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url='https://t.me/storytym')
         ]]
