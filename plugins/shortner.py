@@ -182,7 +182,14 @@ async def short(link):
             print(f"0x0.st :- {error}")
         # ttm.sh shorten
         try:
-       
+            s = Shortener(domain='https://ttm.sh')
+            url = s.nullpointer.short(link)
+            shorten_urls += f"\n**ᴛᴛᴍ.sʜ :-** [Cʟɪᴄᴋ Mᴇ]({url})"
+        except Exception as error:
+            print(f"ttm.sh :- {error}")
+    except Exception as error:
+        print(f"NullPointer error :- {error}")
+    
     # GPLinks shorten
     if GPLINKS_API:
         try:
