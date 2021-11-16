@@ -8,8 +8,7 @@
       "url",
       "best",
       "indian",
-      "pyrogram",
-        
+      "pyrogram",    
     ],
     "website": "https://github.com/Judson-web/URL-Shortner-Bot",
     "repository": "https://github.com/Judson-web/URL-Shortner-Bot",
@@ -49,7 +48,6 @@
         "OWLY_API": {
             "description": "From https://ow.ly/",
             "required": false
-        }
     },
     "addons": [],
     "buildpacks": [{
