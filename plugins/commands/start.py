@@ -22,17 +22,6 @@ HELP_TEXT = """**Hᴇʏ, Fᴏʟʟᴏᴡ ᴛʜᴇsᴇ sᴛᴇᴘs:**
 
 START_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
+        InlineKeyboardButton('ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url='https://telegram.me/FayasNoushad'),
         ]]
-    )
-
-@Client.on_message(filters.private & filters.command(["help"]))
-async def help(bot, update):
-    if not await db.is_user_exist(update.from_user.id):
-        await db.add_user(update.from_user.id)
-    await update.reply_text(
-        text=START_TEXT,
-        disable_web_page_preview=True,
-        reply_markup=START_BUTTONS,
-        quote=True
     )
