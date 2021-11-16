@@ -1,0 +1,68 @@
+{
+    "name": "URL-Shortner-Bot",
+    "description": "A powerful Adless Shortlink Bot 😅",
+    "stack": "container",
+    "keywords": [
+      "telegram",
+      "auto-filter",
+      "filter",
+      "best",
+      "indian",
+      "pyrogram",
+      "media",
+      "search",
+      "channel",
+      "index",
+      "inline"
+    ],
+    "website": "https://github.com/Judson-web/URL-Shortner-Bot",
+    "repository": "https://github.com/Judson-web/URL-Shortner-Bot",
+    "env": {
+        "API_HASH": {
+            "description": "Get this value from https://my.telegram.org",
+            "required": true
+        },
+        "API_ID": {
+            "description": "Get this value from https://my.telegram.org",
+            "required": true
+        },
+        "BOT_TOKEN": {
+            "description": "Your bot token from @BotFather",
+            "required": true
+        },
+        "BITLY_API": {
+            "description": "From https://dev.bitly.com/ ",
+            "required": false
+        },
+        "CUTTLY_API": {
+            "description": "From https://cutt.ly/cuttly-api",
+            "required": true
+        },
+        "SHORTCM_API": {
+            "description": "From https://developers.short.io/",
+            "required": false
+        },
+        "GPLINKS_API": {
+            "description": "From https://gplinks.in/",
+            "required": false
+        },
+        "POST_API": {
+            "description": "From https://po.st/",
+            "required": false
+        },
+        "OWLY_API": {
+            "description": "From https://ow.ly/",
+            "required": false
+        }
+    },
+    "addons": [],
+    "buildpacks": [{
+        "url": "heroku/python"
+    }],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
