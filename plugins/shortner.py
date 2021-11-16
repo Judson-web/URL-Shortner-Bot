@@ -1,8 +1,8 @@
 # Made with python3
-# (C) @FayasNoushad
+# (C) @Judson-web
 # Copyright permission under MIT License
-# All rights reserved by FayasNoushad
-# License -> https://github.com/FayasNoushad/URL-Shortner-Bot/blob/main/LICENSE
+# All rights reserved by Mickey
+# License -> https://github.com/Judson-web/URL-Shortner-Bot/blob/main/LICENSE
 
 import os
 import aiohttp
