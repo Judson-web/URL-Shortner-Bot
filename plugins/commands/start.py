@@ -1,4 +1,4 @@
-# Author: Fayas (https://github.com/FayasNoushad) (@FayasNoushad)
+# Author: Mickey (https://github.com/Judson-web) (@Judson-web)
 
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
