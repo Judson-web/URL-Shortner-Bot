@@ -44,7 +44,8 @@ python3 main.py
 
 ## Credits
 
-- [Fayas Noushad](https://github.com/FayasNoushad)
+- [Fayas Noushad](https://github.com/FayasNoushad) 
+- [Me 😎](https://github.com/Judson-web)
 - [Pyrogram](https://github.com/pyrogram/pyrogram)
 - [This Repo](https://github.com/FayasNoushad/URL-Shortner-Bot)
 
