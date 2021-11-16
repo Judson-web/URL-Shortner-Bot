@@ -38,7 +38,7 @@ async def start(bot, update):
 
 HELP_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('ʜᴏᴍᴇ', callback_data='start'),
+        InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
         ]]
     )
 
