@@ -1,8 +1,8 @@
 ```
 Made with Python3
-(C) @FayasNoushad
+(C) Judson-web
 Copyright permission under MIT License
-License -> https://github.com/FayasNoushad/URL-Shortner-Bot/blob/main/LICENSE
+License -> https://github.com/Judson-web/URL-Shortner-Bot/blob/main/LICENSE
 ```
 
 ---
@@ -10,7 +10,7 @@ License -> https://github.com/FayasNoushad/URL-Shortner-Bot/blob/main/LICENSE
 ## Deploy
 
 ```sh
-git clone https://github.com/FayasNoushad/URL-Shortner-Bot.git
+git clone https://github.com/Judson-web/URL-Shortner-Bot.git
 cd URL-Shortner-Bot
 pip3 install -r requirements.txt
 # <Create Variables appropriately>
@@ -46,5 +46,6 @@ python3 main.py
 
 - [Fayas Noushad](https://github.com/FayasNoushad)
 - [Pyrogram](https://github.com/pyrogram/pyrogram)
+- [This Repo](https://github.com/FayasNoushad/URL-Shortner-Bot)
 
 ---
