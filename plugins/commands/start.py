@@ -31,7 +31,7 @@ async def help(bot, update):
     if not await db.is_user_exist(update.from_user.id):
         await db.add_user(update.from_user.id)
     await update.reply_text(
-        text=HELP_TEXT,
+        text=START_TEXT,
         disable_web_page_preview=True,
         reply_markup=START_BUTTONS,
         quote=True
