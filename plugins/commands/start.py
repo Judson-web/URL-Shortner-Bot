@@ -37,7 +37,7 @@ Usɪɴɢ ᴍᴇ ɪs sɪᴍᴘʟᴇ ᴀs Exᴘʟᴀɪɴᴇᴅ ʙᴇʟᴏᴡ
 • Tʜᴀᴛs Aʟʟ 💜...
 """
 
-START_BUTTONS = InlineKeyboardMarkup(
+HELP_BUTTONS = InlineKeyboardMarkup(
         [[
         InlineKeyboardButton('ʜᴏᴍᴇ', callback_data='start'),
         ]]
