@@ -182,9 +182,9 @@ async def short(link):
             print(f"0x0.st :- {error}")
         # ttm.sh shorten
         try:
-    
+       
     # GPLinks shorten
-      GPLINKS_API:
+    if GPLINKS_API:
         try:
             api_url = "https://gplinks.in/api"
             params = {'api': GPLINKS_API, 'url': link}
