@@ -19,7 +19,7 @@ START_BUTTONS = InlineKeyboardMarkup(
         InlineKeyboardButton('ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url='https://t.me/storytym')
         ]]
         InlineKeyboardButton('ʀᴇᴘᴏ', url='https://github.com/Judson-web/URL-Shortner-Bot')
-        [[
+        ]]
     )
 
 @Client.on_message(filters.private & filters.command(["start"]))
