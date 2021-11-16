@@ -15,7 +15,7 @@ License -> https://github.com/Judson-web/URL-Shortner-Bot/blob/main/LICENSE
 
 ---
 
-## Deploy
+## Dᴇᴘʟᴏʏ
 
 ```sh
 git clone https://github.com/Judson-web/URL-Shortner-Bot.git
@@ -27,14 +27,14 @@ python3 main.py
 
 ---
 
-## Variables
+## Vᴀʀɪᴀʙʟᴇs
 
-**Required:**
+**Rᴇᴏ̨ᴜɪʀᴇᴅ:**
 - `API_HASH` Your API Hash from my.telegram.org
 - `API_ID` Your API ID from my.telegram.org
 - `BOT_TOKEN` Your bot token from @BotFather
 
-**Not Required:**
+**Nᴏᴛ Rᴇᴏ̨ᴜɪʀᴇᴅ:**
 - `BITLY_API` [Bit.ly](https://bit.ly) api from [dev.bitly.com](https://dev.bitly.com)
 - `CUTTLY_API` [Cutt.ly](https://cutt.ly) api from [cutt.ly/cuttly-api](https://cutt.ly/cuttly-api) 
 - `SHORTCM_API` [Short.cm](https://short.cm) api from [developers.short.io](https://developers.short.io)
@@ -44,17 +44,17 @@ python3 main.py
 
 ---
 
-## Note
+## Nᴏᴛᴇ
 
-> These are not my domains. So I don't know how your shorted link will work I can not guarantee that the link will not be redirected to the untrusted sites. So please short and share it your risk.
+> Tʜᴇsᴇ ᴀʀᴇ ɴᴏᴛ ᴍʏ ᴅᴏᴍᴀɪɴs. Sᴏ I ᴅᴏɴ'ᴛ ᴋɴᴏᴡ ʜᴏᴡ ʏᴏᴜʀ sʜᴏʀᴛᴇᴅ ʟɪɴᴋ ᴡɪʟʟ ᴡᴏʀᴋ I ᴄᴀɴ ɴᴏᴛ ɢᴜᴀʀᴀɴᴛᴇᴇ ᴛʜᴀᴛ ᴛʜᴇ ʟɪɴᴋ ᴡɪʟʟ ɴᴏᴛ ʙᴇ ʀᴇᴅɪʀᴇᴄᴛᴇᴅ ᴛᴏ ᴛʜᴇ ᴜɴᴛʀᴜsᴛᴇᴅ sɪᴛᴇs. Sᴏ ᴘʟᴇᴀsᴇ sʜᴏʀᴛ ᴀɴᴅ sʜᴀʀᴇ ɪᴛ ʏᴏᴜʀ ʀɪsᴋ.
 
 ---
 
 ## Credits
 
-- [Fayas Noushad](https://github.com/FayasNoushad) 
-- [Me 😎](https://github.com/Judson-web)
-- [Pyrogram](https://github.com/pyrogram/pyrogram)
-- [This Repo](https://github.com/FayasNoushad/URL-Shortner-Bot)
+- [Fᴀʏᴀs Nᴏᴜsʜᴀᴅ](https://github.com/FayasNoushad) 
+- [Mᴇ 😎](https://github.com/Judson-web)
+- [Pʏʀᴏɢʀᴀᴍ](https://github.com/pyrogram/pyrogram)
+- [Tʜɪs Rᴇᴘᴏ](https://github.com/FayasNoushad/URL-Shortner-Bot)
 
 ---
