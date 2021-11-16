@@ -4,16 +4,12 @@
     "stack": "container",
     "keywords": [
       "telegram",
-      "auto-filter",
-      "filter",
+      "shortner",
+      "url",
       "best",
       "indian",
       "pyrogram",
-      "media",
-      "search",
-      "channel",
-      "index",
-      "inline"
+        
     ],
     "website": "https://github.com/Judson-web/URL-Shortner-Bot",
     "repository": "https://github.com/Judson-web/URL-Shortner-Bot",
