@@ -30,7 +30,7 @@ START_BUTTONS = InlineKeyboardMarkup(
 async def start(bot, update):
     await update.reply_text(
         text=HELP_TEXT.format(update.from_user.mention),
-        reply_markup=HELP_BUTTONS,
+        reply_markup=START_BUTTONS,
         disable_web_page_preview=True,
         quote=True
     )
